@@ -94,6 +94,42 @@
     cursor: pointer;
     display: inline-block;   
 }
+
+
+
+.blok3{
+    margin-left: 355px;
+    box-sizing: border-box;
+}
+.blok3__h2{
+   margin-bottom: 30px;
+   width: 79px;
+   height: 25px;
+   font-size: 18px;
+   line-height: 24.59px;
+   letter-spacing: -0.03em;
+   font-weight: 400;
+
+}
+.blok3Progect__img{
+    width: 1150px;
+    height:450px;
+    margin-bottom: 15px;
+}
+.blok3Progect__h3{
+    width: 501px;
+    height: 41px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40.98px;
+    letter-spacing: 0.03em;
+    
+}
+
+
+
+
 body{
     background-color: whitesmoke;
     font-family: Manrope , sans-serif;

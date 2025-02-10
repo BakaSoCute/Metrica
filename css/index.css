@@ -111,20 +111,34 @@
    font-weight: 400;
 
 }
+.blok3Progect{
+    width: 1150px;
+    height: 548px;
+}
 .blok3Progect__img{
     width: 1150px;
     height:450px;
     margin-bottom: 15px;
 }
 .blok3Progect__h3{
-    width: 501px;
     height: 41px;
     margin-bottom: 15px;
     font-size: 30px;
     font-weight: 400;
     line-height: 40.98px;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.03em;
+    display: block;
     
+}
+.blok3Progect__a{
+    width: 127px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
 }
 
 
@@ -133,4 +147,5 @@
 body{
     background-color: whitesmoke;
     font-family: Manrope , sans-serif;
+    box-sizing: border-box;
 }

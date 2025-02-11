@@ -111,16 +111,16 @@
    font-weight: 400;
 
 }
-.blok3Progect{
+.blok3Project{
     width: 1150px;
     height: 548px;
 }
-.blok3Progect__img{
+.blok3Project__img{
     width: 1150px;
     height:450px;
     margin-bottom: 15px;
 }
-.blok3Progect__h3{
+.blok3Project__h3{
     height: 41px;
     margin-bottom: 15px;
     font-size: 30px;
@@ -130,7 +130,7 @@
     display: block;
     
 }
-.blok3Progect__a{
+.blok3Project__a{
     width: 127px;
     height: 27px;
     font-size: 20px;

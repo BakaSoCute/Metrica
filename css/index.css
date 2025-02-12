@@ -1,9 +1,14 @@
 @import url(../index.html);
+main{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+}
 .blok1{
-    margin-left: 355px;
+    margin-left: 125px;
     margin-bottom: 150px;
     margin-top: 128px;
-    margin-right: 355px;
+    margin-right: 125px;
     width: 1150px;
     height: 650px;
 
@@ -51,9 +56,9 @@
 .blok2{
     width: 1051px;
     height: 518px;
-    margin-left: 355px;
+    margin-left: 125px;
     margin-bottom: 150px ;
-    margin-right: 454px;
+    margin-right: 224px;
     box-sizing: border-box;
     display: inline-block;
 }
@@ -98,8 +103,8 @@
 
 
 .blok3{
-    margin-left: 355px;
-    margin-right: 358px;
+    margin-left: 125px;
+    margin-right: 125px;
     box-sizing: border-box;
 }
 .blok3__h2{
@@ -164,12 +169,47 @@
     color: white;
     background-color: #AD1818;
 }
+.blok4{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+.blok4__h2{
+    padding-left: 125px;
+    padding-top: 151px;
+    padding-bottom: 34px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+}
+.blok4__services{
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 60px;
+}
+.blok4__services:nth-last-child(1){
+    padding-bottom: 150px;
+    margin-bottom: 0;
+}
+.blok4__h3{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+}
 
 
 
 
 body{
-    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(219, 215, 215, 0.719);
     font-family: Manrope , sans-serif;
     box-sizing: border-box;
+    display: block;
+
 }

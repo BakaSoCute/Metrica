@@ -28,22 +28,21 @@ main{
     letter-spacing: -0.03em;
 }
 .blok1__img{
+    position: relative;
     width: 1150px;
     height:500px;
     background-image: url("../img/Rectangle\ 1.png");
     background-size: cover;
 }
 .blok1__p{
-
+    position: absolute;
     font-weight: 400;
     font-size: 20px;
     width: 430px;
     height: 81px;
     margin: 0%;  
-    padding-left: 40px;
-    padding-bottom: 40px;
-    padding-right: 680px;
-    padding-top: 379px;
+    left: 40px;
+    bottom: 40px;
     letter-spacing: -0.03em;
     line-height: 27.32px;
 

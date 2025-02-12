@@ -10,9 +10,6 @@ main{
     margin-top: 128px;
     margin-right: 125px;
     width: 1150px;
-    height: 650px;
-
-    box-sizing: border-box;
     display: block;
 
 }
@@ -22,16 +19,14 @@ main{
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 30px;
-    height: 120px;
     width: 956px;
-    font-style: normal;
     letter-spacing: -0.03em;
 }
 .blok1__img{
     position: relative;
     width: 1150px;
     height:500px;
-    background-image: url("../img/Rectangle\ 1.png");
+    background-image: url("../img/Rectangle 1.png");
     background-size: cover;
 }
 .blok1__p{
@@ -41,8 +36,12 @@ main{
     width: 430px;
     height: 81px;
     margin: 0%;  
+<<<<<<< HEAD
     left: 40px;
     bottom: 40px;
+=======
+    padding: 379px 680px 40px 40px;
+>>>>>>> 34f02284fc64af632a086717b05391c2d74d4cc2
     letter-spacing: -0.03em;
     line-height: 27.32px;
 
@@ -86,17 +85,19 @@ main{
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20ppx;
+
     border-radius: 5px;
     font-size: 20px;
     font-family: Manrope, sans-serif;
     font-weight: 400;
-    line-height: 27,32px ;
+    line-height: 27.32px ;
     letter-spacing: -0.03em;
     color: white;
     background-color: #AD1818;
     cursor: pointer;
     display: inline-block;   
+    text-decoration: none;
 }
 
 

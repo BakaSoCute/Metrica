@@ -4,10 +4,20 @@ main{
     margin: 0 auto;
     background-color: white;
 }
+.nav{
+    display: inline-block;
+    width: 1150px;
+    margin-bottom: 70px;
+    margin-left: 125px;
+}
+.nav__links{
+
+}
+
+
 .blok1{
     margin-left: 125px;
     margin-bottom: 150px;
-    margin-top: 128px;
     margin-right: 125px;
     width: 1150px;
     display: block;

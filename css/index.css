@@ -229,6 +229,51 @@ main{
     letter-spacing: -0.03em;
     color:#FFFFFF;
 }
+.blok6{
+    position: relative;
+    width: 100%;
+    height: 553px;
+}
+.blok6__content{
+    display: block;
+    position: absolute;
+    left: 124px;
+    bottom: 150px;
+}
+.blok6__content_h3{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+}
+.blok6__content_h3:before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    bottom: 40px;
+    left: -4px;
+    position: absolute;
+    background-image: url("../img/iphone.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.blok6__content_a{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    display: block;
+    color:#121212;
+    text-decoration: none;
+}
+.blok6__content_a:hover{
+    opacity: 50%;
+    text-decoration: underline;
+}
 
 
 

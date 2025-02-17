@@ -275,6 +275,50 @@ main{
     text-decoration: underline;
 }
 
+.blok7{
+    height: 229px;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+.blok7__container{
+    position: relative;
+}
+.blok7__menu{
+    width: 450px;
+    margin: 0 auto;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+    text-align: center;
+}
+.blok7__menu_a{
+    margin-right: 52px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.blok7__menu_a:nth-last-child(1){
+    margin: 0;
+}
+.blok7__menu_a:hover{
+    opacity: 50%;
+}
+.blok7__p{
+    position: absolute;
+    top: 172px;
+    left: 381px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    opacity: 50%;
+
+}
+
+
 
 
 

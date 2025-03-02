@@ -176,17 +176,52 @@ main{
     font-size: 18px;
     line-height: 24.59px;
 }
-.services__li{
-    margin-bottom: 60px;
+.services__ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 80.7px;
 }
-.services__li:nth-last-child(1){
-    padding-bottom: 150px;
-    margin-bottom: 0;
+.services__li{
+    width: calc(50% - 5px);
+    position: relative;
+    margin-bottom: 104px;
+}
+.services__li_button{
+    height: 40px;
+    padding: 5px 21px;
+    border-radius: 5px;
+    background-color: red;
+    display: block;
+    color: white;
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    position: absolute;
+    top: 31px;
+    left: 30px;
+}
+.services__li img{
+    width: 100%;
+    height: 388px;
+    object-fit: cover;
 }
 .services__li_h3{
     margin-top: 15px;
     font-size: 30px;
     line-height: 40.98px;
+}
+.services__button{
+    width: 100%;
+    height: 153px;
+    border-radius: 5px;
+    background-color: #AD1818;
+    color: white;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+
 }
 .apartment{
     width: 100%;

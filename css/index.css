@@ -49,6 +49,7 @@ main{
     height:500px;
     background-image: url("../img/Rectangle 1.png");
     background-size: cover;
+    background-position: 50%;
 }
 .initial__p{
     position: absolute;
@@ -309,6 +310,7 @@ body{
     .initial__img{
         height: 400px;
         width: 100%;
+        background-image: url("../img/Rectangle-tablet.png");
     }
     .initial__h1{
         width: 100%;
@@ -329,7 +331,7 @@ body{
         height: auto;
     }
     .project__li_img{
-        height: auto;
+        height: 450px;
         max-width: 100%;
     }
     .project__li_h3{
@@ -340,7 +342,7 @@ body{
 
 
 }
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .initial {
         margin-bottom: 80px;
         margin-top: 108px;
@@ -352,6 +354,7 @@ body{
     }
     .initial__img{
         height: 304px;
+        background-image: url("../img/Rectangle-phone.png");
     }
     .initial__p{
         left: 15px;
@@ -386,6 +389,9 @@ body{
     .project__a{
         padding-top: 37px;
         padding-bottom: 37px;
+    }
+    .project__li_img{
+        height: 250px;
     }
 
 

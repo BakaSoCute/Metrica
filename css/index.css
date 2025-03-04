@@ -201,6 +201,7 @@ main{
     position: absolute;
     top: 31px;
     left: 30px;
+    font-family: Manrope , sans-serif;
 }
 .services__li img{
     width: 100%;
@@ -221,6 +222,7 @@ main{
     font-size: 30px;
     line-height: 40.98px;
     letter-spacing: -0.03em;
+    font-family: Manrope , sans-serif;
 
 }
 .apartment{
@@ -375,6 +377,9 @@ body{
     .services__li img{
         height: 315px;
     }
+    .services__li_h3{
+        font-size: 25px;
+    }
     .services__ul{
         margin-bottom: 80px;
     }
@@ -435,11 +440,19 @@ body{
     .project__li_img{
         height: 250px;
     }
+    .services__h2{
+        padding-top: 80px;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
     .services__ul{
         flex-direction: column;
     }
     .services__li{
         width: 100%;
+    }
+    .services__li_h3{
+        font-size: 18px;
     }
     .services__li img{
         height: 240px;
@@ -452,6 +465,9 @@ body{
         left: 24px;
         top: 23px;
         font-size: 14px;
+    }
+    .services__button{
+        font-size: 22px;
     }
 
 

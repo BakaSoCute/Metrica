@@ -445,9 +445,6 @@ body{
         padding-bottom: 20px;
         font-size: 14px;
     }
-    .services__ul{
-        flex-direction: column;
-    }
     .services__li{
         width: 100%;
     }

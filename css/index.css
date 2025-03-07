@@ -218,6 +218,7 @@ h1, h2, h3, h4, h5, h6, p, li, button, a, div{
 .services__button{
     width: 100%;
     height: 153px;
+    margin-bottom: 150px;
     border-radius: 5px;
     background-color: #AD1818;
     color: white;
@@ -247,9 +248,13 @@ h1, h2, h3, h4, h5, h6, p, li, button, a, div{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    row-gap: 50px;
 }
 .col{
     width: 530px;
+}
+.col_big{
+    width: 75%;
 }
 .apartment{
     width: 100%;
@@ -412,6 +417,15 @@ body{
     .services__li_button{
         font-size: 20px;
     }
+    .services__button{
+        margin-bottom: 120px;
+    }
+    .coment{
+        margin-top: 120px;
+    }
+    .row{
+        margin-bottom: 80px;
+    }
     .col{
         width: calc(50% - 5px);
     }
@@ -428,7 +442,7 @@ body{
 
 
 }
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     .initial {
         margin-bottom: 80px;
         margin-top: 108px;
@@ -503,17 +517,18 @@ body{
         font-size: 14px;
     }
     .services__button{
+        margin-bottom: 80px;
         font-size: 22px;
     }
-    .row{
-        row-gap: 80px;
+    .coment{
+        margin-top: 80px;
     }
     .col{
         width: 100%;
     }
     .coment__h2{
         font-size: 14px;
-        margin-bottom: 22px;
+        margin-bottom: 22px;   
     }
     .coment__row_h3{
         margin-bottom: 10px;

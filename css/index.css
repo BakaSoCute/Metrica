@@ -412,6 +412,19 @@ body{
     .services__li_button{
         font-size: 20px;
     }
+    .col{
+        width: calc(50% - 5px);
+    }
+    .coment__h2{
+        font-size: 18px;
+    }
+    .coment__row_h3{
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+    .coment__row_p{
+        font-size: 20px;
+    }
 
 
 }
@@ -491,6 +504,24 @@ body{
     }
     .services__button{
         font-size: 22px;
+    }
+    .row{
+        row-gap: 80px;
+    }
+    .col{
+        width: 100%;
+    }
+    .coment__h2{
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+    .coment__row_h3{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .coment__row_p{
+        font-size: 16px;
+        
     }
 
 

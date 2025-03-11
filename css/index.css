@@ -275,6 +275,68 @@ h1, h2, h3, h4, h5, h6, p, li, button, a, div{
     line-height: 40.98px;
     color:#FFFFFF;
 }
+.gallery-main{
+    position: relative;
+}
+.gallery-main__title-wrapper{
+    position: absolute;
+    width: 100%;
+    top: 67px;
+    z-index: 100;
+}
+.gallery-main__title{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 22px;
+
+}
+.gallery__slides{
+    position: relative;
+    height: 717px;
+}
+.gallery__slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.gallery__slide_img{
+    height: 100%;
+    width: 100%;
+}
+.gallery__slide_p{
+    position: absolute;
+    bottom: 60px;
+    width: 417px;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 38px;
+}
+.gallery__slide_active{
+    opacity: 1;
+}
+.gallery__control-wrapper{
+    position: absolute;
+    width: 100%;
+    bottom: 162px;
+}
+.gallery__controls{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row;
+    gap: 14px;
+}
+.gallery__control-prev:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.gallery__control-next:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
 .contacts{
     position: relative;
     width: 100%;

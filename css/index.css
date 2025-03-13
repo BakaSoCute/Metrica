@@ -258,24 +258,6 @@ h1, h2, h3, h4, h5, h6, p, li, button, a, div{
 .col_big{
     width: 75%;
 }
-.apartment{
-    width: 100%;
-    height: 717px;
-    position: relative;
-    background-image: url("../img/Rectangle 10.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-}
-.apartment__p{
-    position: absolute;
-    width: 443px;
-    left: 125px;
-    bottom: 60px;
-    font-size: 30px;
-    line-height: 40.98px;
-    color:#FFFFFF;
-}
 .gallery-main{
     position: relative;
 }
@@ -340,43 +322,69 @@ h1, h2, h3, h4, h5, h6, p, li, button, a, div{
     cursor: pointer;
 }
 .contacts{
-    position: relative;
     width: 100%;
-    height: 553px;
+    height: 459px;
+    position: relative;
 }
 .contacts__content{
-    display: block;
     position: absolute;
-    left: 124px;
-    bottom: 150px;
+    top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 104px;
 }
-.contacts__content_h3{
-    position: relative;
-    display: block;
+.contacts__h3{
+    position: absolute;
+    top: 150px;
     font-size: 18px;
-    line-height: 24.59px;
+
 }
-.contacts__content_h3:before{
+.contacts__content_a:before{
     content: "";
     display: block;
     width: 24px;
     height: 24px;
-    bottom: 40px;
-    left: -4px;
+    bottom: 80px;
     position: absolute;
     background-image: url("../img/iphone.png");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
 }
+.contacts__content_a2:before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    bottom: 80px;
+    position: absolute;
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
 .contacts__content_a{
+    position: relative;
     font-size: 60px;
     line-height: 60px;
     display: block;
     color:#121212;
     text-decoration: none;
 }
+.contacts__content_a2{
+    position: relative;
+    font-size: 60px;
+    line-height: 60px;
+    display: block;
+    color:#121212;
+    text-decoration: none;
+}
+
 .contacts__content_a:hover{
+    opacity: 50%;
+    text-decoration: underline;
+}
+.contacts__content_a2:hover{
     opacity: 50%;
     text-decoration: underline;
 }
@@ -526,6 +534,12 @@ body{
         font-size: 25px;
         bottom: 80px;
     }
+    .contacts__h3{
+        top: 120px;
+    }
+    .contacts__content{
+        top: 220px;
+    }
 
 
 }
@@ -639,7 +653,29 @@ body{
         left: 14px;
         bottom: 60px;
     }
+    .contacts__h3{
+        top: 80px;
+        font-size: 14px;
 
+    }
+    .contacts__content{
+        top: 150px;
+        flex-direction: column;
+    }
+    .contacts__content_a{
+        font-size: 35px;
+        line-height: 45.62px;
+    }
+    .contacts__content_a2{
+        font-size: 35px;
+        line-height: 45.62px;
+    }
+    .contacts__content_a:before{
+        bottom: 50px;
+    }
+    .contacts__content_a2:before{
+        bottom: 50px;
+    }
 
     .container{
         width: 100%;

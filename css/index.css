@@ -192,14 +192,13 @@ h1, h2, h3, h4, h5, h6, p, li, button, a, div{
     position: relative;
 }
 .services__li_button{
-    height: 40px;
     padding: 5px 21px;
     border-radius: 5px;
     background-color: red;
     display: block;
     color: white;
     font-size: 22px;
-    /* line-height: 30.05px; */
+    line-height: 30.05px;
     position: absolute;
     top: 31px;
     left: 30px;
@@ -609,7 +608,6 @@ body{
         margin-bottom: 60px;
     }
     .services__li_button{
-        height: 30px;
         left: 24px;
         top: 23px;
         font-size: 14px;

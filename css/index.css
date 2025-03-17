@@ -226,6 +226,57 @@ h1, h2, h3, h4, h5, h6, p, li, button, a, div{
     font-family: Manrope , sans-serif;
 
 }
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+}
+.popup__content{
+    width: 777px;
+    max-height: 100%;
+    overflow-y: scroll;
+    position: relative;
+    background-color:white;
+    padding: 20px;
+}
+.popup_open{
+    opacity: 1;
+    visibility: visible;
+}
+.popup_title{
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+    line-height: 60px;
+}
+.popup_p{
+    font-size: 18px;
+    text-align: center;
+    color: #121212;
+}
+.popup_close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/close-icon.png");
+    cursor: pointer;
+
+}
+.body__fixed{
+    overflow: hidden;
+}   
 .coment{
     margin-top: 150px;
     margin-bottom: 150px;

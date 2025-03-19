@@ -1,9 +1,19 @@
 @import url(../index.html);
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 main{
     background-color: white;
 }
 .container{
-    max-width: 1150px;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -89,22 +99,15 @@ h1, h2, h3, h4, h5, h6, p, li, button, a, div{
     letter-spacing: -0.03em;
 }
 .about__button{
-    width: 175px;
-    height: 27px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+    padding: 20px 40px;
     border-radius: 5px;
     font-size: 20px;
     font-family: Manrope, sans-serif;
     line-height: 27.32px ;
-    letter-spacing: -0.03em;
     color: white;
     background-color: #AD1818;
     cursor: pointer;
-    display: inline-block;   
+    display:inline-block;
     text-decoration: none;
 }
 
@@ -532,10 +535,6 @@ body{
         width: 100%;
         font-size: 50px;
     }
-    .container{
-        width: 100%;
-        padding: 0;
-    }
     .about__p{
         width: 100%;
         font-size: 35px;
@@ -802,8 +801,5 @@ body{
         font-size: 13px;
     }
 
-    .container{
-        width: 100%;
-    }
 
 }

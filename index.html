@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <main>
-        <!-- <header class="nav">
-            <div class="container">
+    <header class="nav">
+        <div class="container">
+            <div class="nav_content">
                 <img class="nav__logo" src="img/Metrica.png" alt="Лого">
                 <nav class="nav__links">
                     <a class="nav__links_a" href="#we">О НАС</a>
@@ -23,8 +23,27 @@
                     <a class="nav__links_a" href="#services">УСЛУГИ</a>
                     <a class="nav__links_a" href="#contacts">КОНТАКТЫ</a>
                 </nav>
-            </div>    
-        </header> -->
+                <div class="js-burger-btn burger-btn"></div>
+            </div>
+        </div>    
+    </header>
+    <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+            <img class="burger-nav__logo" src="img/Metrica.png" alt="Лого">
+            <nav class="burger-nav__links">
+                <a class="burger-nav__links_a" href="#we">О НАС</a>
+                <a class="burger-nav__links_a" href="#project">ПРОЕКТЫ</a>
+                <a class="burger-nav__links_a" href="#services">УСЛУГИ</a>
+                <a class="burger-nav__links_a" href="#contacts">КОНТАКТЫ</a>
+            </nav>
+            <div class="burger__contacts">
+                <p class="burger__contacts_p">для связи:</p>
+                <a class="burger__contacts_a" href="tel:+7 935  895-45-35">+7 935  895-45-35</a>
+                <a class="burger__contacts_a" href="mailto:hello@mail.com">hello@mail.com</a>
+            </div>
+        </div>
+    </div>
+    <main>
         <section class="initial">
             <div class="container">
                 <h1 class="initial__h1">Современные и стильные интерьеры для комфортной жизни</h1>
@@ -187,5 +206,6 @@
     </main>
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
 </body>
 </html>
